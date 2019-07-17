@@ -1,1 +1,1 @@
-# scecvdo-manual
+# SCEC-VDO User Manual
