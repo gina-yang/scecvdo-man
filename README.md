@@ -1,1 +1,1 @@
-# scecvdo-man
+# scecvdo-manual
