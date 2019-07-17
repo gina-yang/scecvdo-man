@@ -64,7 +64,7 @@ a:focus {
 	left: 0;
 	height: 100vh;
 	z-index: 999;
-	background: gray;
+	background: #787878;
 	color: #fff;
 	transition: all 0.3s;
 }
@@ -75,7 +75,7 @@ a:focus {
 
 #sidebar .sidebar-header {
 	padding: 20px;
-	background: #696969;
+	background: #606060;
 }
 
 #sidebar ul.components {
@@ -95,14 +95,14 @@ a:focus {
 }
 
 #sidebar ul li a:hover {
-	color: #696969;
+	color: #606060;
 	background: #fff;
 }
 
 #sidebar ul li.active>a,
 a[aria-expanded="true"] {
 	color: #fff;
-	background: #696969;
+	background: #606060;
 }
 
 a[data-toggle="collapse"] {
@@ -120,7 +120,7 @@ a[data-toggle="collapse"] {
 ul ul a {
 	font-size: 0.9em !important;
 	padding-left: 30px !important;
-	background: #696969;
+	background: #606060;
 }
 
 ul.CTAs {
@@ -142,7 +142,7 @@ a.download {
 
 a.article,
 a.article:hover {
-	background: #585858 !important;
+	background: #606060 !important;
 	color: #fff !important;
 }
 
