@@ -60,7 +60,7 @@ a:focus {
 	left: 0;
 	height: 100vh;
 	z-index: 999;
-	background: #787878;
+	background: #686868;
 	color: #fff;
 	transition: all 0.3s;
 }
@@ -91,14 +91,18 @@ a:focus {
 }
 
 #sidebar ul li a:hover {
-	color: #686868;
+	color: #787878;
 	background: #fff;
 }
 
 #sidebar ul li.active>a,
 a[aria-expanded="true"] {
 	color: #fff;
-	background: #686868;
+	background: #787878;
+}
+
+#version-selector{
+	    padding: 0 1.6em 0 1em;
 }
 
 a[data-toggle="collapse"] {
