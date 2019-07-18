@@ -106,7 +106,7 @@ a[aria-expanded="true"] {
 }
 
 #version-selector{
-	    padding: 0 1.6em 0 1em;
+	    padding: 0.6em 1.6em 0.6em 1em;
 }
 
 a[data-toggle="collapse"] {

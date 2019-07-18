@@ -44,10 +44,10 @@
 			<ul class="list-unstyled components">
 				
 				<li class="active">
-					<a href="#">About</a>
+					<a href="#About">About</a>
 				</li>
 				<li>
-					<a href="#">Installation</a>
+					<a href="#Installation">Installation</a>
 				</li>
 				
 				<li>
@@ -66,8 +66,8 @@
 				</li>
 				
 				<li>
-					<a href="#pageSubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">OpenSHA</a>
-					<ul class="collapse list-unstyled" id="pageSubmenu">
+					<a href="#OpenSHA" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">OpenSHA</a>
+					<ul class="collapse list-unstyled" id="OpenSHA">
 						<li>
 							<a href="#">etc</a>
 						</li>
@@ -102,11 +102,22 @@
 					<a class="nav-link" href="https://github.com/SCECcode/scec-vdo/"><i class="fab fa-github" style="font-size: 1.5em;"></i> SCEC-VDO on GitHub</a> 
 				</div>
 			</nav>
-
-			<h2>About</h2>
-			<h5>Welcome to SCEC-VDO!</h5>
-			<p>Researchers and interns at the <a href="http://www.scec.org">Southern California Earthquake Center (SCEC)</a> have built 3D seismic data visualization software called the SCEC Virtual Display of Objects (SCEC-VDO). SCEC-VDO is written with a Swing frontend, Java backend, and uses the Visualization Toolkit (VTK) to render 3D content. A prior version, which began development in 2005, used the now unsupported Java3D library. Replacing Java3D with the widely supported and actively developed VTK libraries ensures that SCEC-VDO can continue to function for years to come.
-			</p>
+			
+			<div id="About">
+				<h2>About</h2>
+				<h5>Welcome to SCEC-VDO!</h5>
+				<p>Researchers and interns at the <a href="http://www.scec.org">Southern California Earthquake Center (SCEC)</a> 
+					have built a 3D seismic data visualization software tool called the SCEC Virtual Display of Objects 
+					(SCEC-VDO). Written with a Swing graphical user interface, Java backend, and the Visualization Toolkit 
+					(VTK) to render 3D content, SCEC-VDO allows for the visualization of 3D earthquake and fault objects on 
+					maps and the creation (and saving) of images and movies for analysis, presentation, and publication. A 
+					prior version, which began development in 2005, used the now unsupported Java3D library. Replacing Java3D 
+					with the widely supported and actively developed VTK libraries ensures that SCEC-VDO can maintain user 
+					accessibility and continue to function for years to come.
+					</br></br>
+					Explore the sidebar to learn more about SCEC-VDO!
+				</p>
+			</div>
 			
 			<div class="line"></div>
 			
@@ -114,9 +125,9 @@
 			<h5>System Requirements</h5>
 			<p>SCEC-VDO supports the following operating systems: </p>
 			<ul style="list-style-type:none">
-				<li><i class="fab fa-windows"></i>  Windows 7, Windows 10 (64-bit)</li>
-				<li><i class="fab fa-apple"></i>  Mac OS X</li>
-				<li><i class="fab fa-linux"></i>  Linux (64-bit)</li>
+				<li><i class="fab fa-windows"></i> Windows 7, Windows 10 (64-bit)</li>
+				<li><i class="fab fa-apple"></i> Mac OS X</li>
+				<li><i class="fab fa-linux"></i> Linux (64-bit)</li>
 			</ul>
 			
 			<div class="line"></div>
