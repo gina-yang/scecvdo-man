@@ -16,7 +16,6 @@
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/malihu-custom-scrollbar-plugin/3.1.5/jquery.mCustomScrollbar.min.css">
 	<!-- FontAwesome CSS for GH icon -->
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
-
 	<!-- Font Awesome JS -->
 	<script defer src="https://use.fontawesome.com/releases/v5.0.13/js/solid.js" integrity="sha384-tzzSw1/Vo+0N5UhStP3bvwWPq+uvzCMfrN1fEFe+xBmv1C/AtVX5K0uZtmcHitFZ" crossorigin="anonymous"></script>
 	<script defer src="https://use.fontawesome.com/releases/v5.0.13/js/fontawesome.js" integrity="sha384-6OIrr52G08NpOFSZdxxz1xdNSndlD4vdcf/q2myIUVO0VsqaGHJsB0RaBE01VTOY" crossorigin="anonymous"></script>
@@ -148,10 +147,27 @@
 				<p>Follow the instructions given by the Eclipse installer. Once installed, open Eclipse. You may be 
 				prompted to set a workspace. Click "OK" to accept the default Eclipse workspace.</p>
 				
+				<p>Your screen should appear similar to this:</p>
 				<img src="images/eclipse_empty.png" style="width: 70%; height: 70%"/>
-				<p>Your screen should appear similar to this.</p>
-				
-				
+				<p>In the toolbar at the top, click <i>File > Import...</i>  An import wizard should appear:</p>
+				<img src="images/git_install.PNG" style="width: 30%; height: 30%"/>
+				<p>Click the arrow next to the folder icon to the right of Git. Select <i>Projects from Git</i> and 
+				click Next.</p>
+				<img src="images/git_install2.PNG" style="width: 30%; height: 30%"/>
+				<p>Select <i>Clone URI</i> and click Next.</p> 
+				<img src="images/git_install3.PNG" style="width: 30%; height: 30%"/>
+				<p>In the <i>URI</i> field, enter the web URL for the SCEC-VDO repository: 
+				<i>https://github.com/SCECcode/scec-vdo/</i>
+				</br> The Host and Repository path fields should auto-fill. Click Next.</p>
+				<img src="images/git_install4.PNG" style="width: 30%; height: 30%"/>
+				<p>Here you will be presented with the SCEC-VDO repository branches. Deselect all except for <i>master</i>.
+				Click Next.</p>
+				<img src="images/git_install5.PNG" style="width: 30%; height: 30%"/>
+				<p>Next Eclipse will prompt you with a Local Destination window. If you would like to change where
+				Eclipse will install the SCEC-VDO repository, change the path in the <i>Directory</i> field. 
+				Otherwise leave the default path. Click Next.</p>
+				<img src="images/git_install6.PNG" style="width: 30%; height: 30%"/>
+				<p>The repository should now be cloning to your computer. It will take a few minutes.</p>
 			</div>
 			
 			<div class="line"></div>
