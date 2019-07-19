@@ -93,41 +93,31 @@ a:link {
 			<img style='width: 100%; height: auto;' src='manual/images/scecvdofront.png'>
 
 			<div class='rcorners'>
-				<strong>Visualize all data as a system</strong> <br>
+				<b>Visualize data</b>
 				<ul>
-
-					<li>Community fault models
-					
-					<li>WGCEP fault models
-					
-					<li>Earthquake event catalogues
-					
-					<li>Hazus events
-					
-					<li>Earthquake simulators
-					
-					<li>UCERF3 Fault system ruptures
-					
-					<li>Shake maps
-					
 					<li>Surface maps
-				
+					<li>ShakeMaps
+					<li>Community fault models
+					<li>WGCEP fault models
+					<li>Earthquake event catalogs
+					<li>Hazus events
+					<li>Earthquake simulators
+					<li>UCERF3 fault system ruptures
 				</ul>
 			</div>
 			<div class='rcorners'>
-				<strong>Movies and collaboration made easy</strong>
+				<b>Movies and collaboration made easy</b>
 				<p>
 					<b><i>Timeline</i></b> allows users to intuitively animate data
-					over time, easily navigating camera positions and turn data sets on
+					over time and navigate camera positions and turn data sets on
 					or off throughout the process. Combined with the new <b><i>Legends</i></b>
 					plugin, SCEC-VDO can produce refined movies without post-processing
 					software. <b><i>Statefulness</i></b> allows users to save
 					their project and continue work at a later time. Collaboration is
 					as simple as sharing an XML file.
-			
 			</div>
 			<div class='rcorners'>
-				<strong>Downloads</strong>
+				<b>Downloads</b>
 				<p>8/4/17 - Version 17.8 is the current stable release. Just unzip
 					and run launch.sh from command prompt. </br>
 					Version 18.9 is expected end of summer 2019.</p>
@@ -140,14 +130,13 @@ a:link {
 						(320mb, zip)</a></li>
 				<li><a href='downloads/scecvdo_17.8_linux_64bit.zip'>Linux (410mb,
 						zip)</a></li>
-				</P>
 				<p>
 					<a href='WebContent/manual/UserGuide.html'>User's Manual</a>
 				</P>
 			</div>
 			<div style='display: inline-block;'>
-				<p>
-					<strong>About SCEC-VDO</strong><br> Researchers and interns at the <a href="http://www.scec.org">Southern California Earthquake Center (SCEC)</a> 
+				<h3></br>About SCEC-VDO</h3>
+				<p>Researchers and interns at the <a href="http://www.scec.org">Southern California Earthquake Center (SCEC)</a> 
 				have built a 3D seismic data visualization software tool called the SCEC Virtual Display of Objects 
 				(SCEC-VDO). Written with a Swing graphical user interface, Java backend, and the Visualization Toolkit 
 				(VTK) to render 3D content, SCEC-VDO allows for the visualization of 3D earthquake and fault objects on 
