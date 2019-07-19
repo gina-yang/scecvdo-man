@@ -46,7 +46,18 @@
 					<a href="#About">About</a>
 				</li>
 				<li>
-					<a href="#Installation">Installation</a>
+					<a href="#Installation" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">Installation</a>
+					<ul class="collapse list-unstyled" id="Installation">
+						<li>
+							<a href="#SysReq">System Requirements</a>
+							<a href="#Install">Install</a>
+							<a href="#Run">Run</a>
+						</li>
+					</ul>
+					
+				</li>
+				<li>
+					<a href="#BasicNav">Basic Navigation</a>
 				</li>
 				
 				<li>
@@ -65,12 +76,7 @@
 				</li>
 				
 				<li>
-					<a href="#OpenSHA" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">OpenSHA</a>
-					<ul class="collapse list-unstyled" id="OpenSHA">
-						<li>
-							<a href="#">etc</a>
-						</li>
-					</ul>
+					<a href="http://opensha.org">OpenSHA</a>
 				</li>
 
 				<li>
@@ -122,56 +128,65 @@
 			
 			<div id="Installation">
 				<h1>Installation</h1>
-				<h3>System Requirements</h3>
-				<p>SCEC-VDO supports the following operating systems: </p>
-				<ul style="list-style-type:none">
-					<li><i class="fab fa-windows"></i> Windows 7, Windows 10 (64-bit)</li>
-					<li><i class="fab fa-apple"></i> Mac OS X</li>
-					<li><i class="fab fa-linux"></i> Linux (64-bit)</li>
-				</ul>
-				<h5>Memory</h5>
-				<p>Minimum: 8GB RAM </br>Recommended: 16GB RAM</p>
+				<div id="SysReq">
+					<h3>System Requirements</h3>
+					<p>SCEC-VDO supports the following operating systems: </p>
+					<ul style="list-style-type:none">
+						<li><i class="fab fa-windows"></i> Windows 7, Windows 10 (64-bit)</li>
+						<li><i class="fab fa-apple"></i> Mac OS X</li>
+						<li><i class="fab fa-linux"></i> Linux (64-bit)</li>
+					</ul>
+					<h5>Memory</h5>
+					<p>Minimum: 8GB RAM </br>Recommended: 16GB RAM</p>
+					</br>
+				</div>
+				
+				<div id="Install">
+					<h3>Installing SCEC-VDO</h3>
+					<h5>Install from package</h5>
+					<p>Version 18.9 and installation instructions are coming soon!</p>
+					
+					<h5>Install from GitHub</h5>
+					<i><p>Note: Screenshots are taken from a Windows computer, but installation process will be identical on 
+					Mac OS X and Linux.</p></i>
+					
+					<p>To acquire and run the latest version of the SCEC-VDO source code from GitHub, the Eclipse integrated 
+					development environment (IDE) is recommended. Install the latest version of the 
+					<a href="https://www.eclipse.org/downloads/">Eclipse IDE here.</a></p>
+					
+					<p>Follow the instructions given by the Eclipse installer. Once installed, open Eclipse. You may be 
+					prompted to set a workspace. Click "OK" to accept the default Eclipse workspace.</p>
+					
+					<p>Your screen should appear similar to this:</p>
+					<img src="images/eclipse_empty.png" style="width: 70%; height: 70%"/>
+					<p>In the toolbar at the top, click <i>File > Import...</i>  An import wizard should appear:</p>
+					<img src="images/git_install.PNG" style="width: 30%; height: 30%"/>
+					<p>Click the arrow next to the folder icon to the right of Git. Select <i>Projects from Git</i> and 
+					click Next.</p>
+					<img src="images/git_install2.PNG" style="width: 30%; height: 30%"/>
+					<p>Select <i>Clone URI</i> and click Next.</p> 
+					<img src="images/git_install3.PNG" style="width: 30%; height: 30%"/>
+					<p>In the <i>URI</i> field, enter the web URL for the SCEC-VDO repository: 
+					<i>https://github.com/SCECcode/scec-vdo/</i>
+					</br> The Host and Repository path fields should auto-fill. Click Next.</p>
+					<img src="images/git_install4.PNG" style="width: 30%; height: 30%"/>
+					<p>Here you will be presented with the SCEC-VDO repository branches. Deselect all except for <i>master</i>.
+					Click Next.</p>
+					<img src="images/git_install5.PNG" style="width: 30%; height: 30%"/>
+					<p>Next Eclipse will prompt you with a Local Destination window. If you would like to change where
+					Eclipse will install the SCEC-VDO repository, change the path in the <i>Directory</i> field. 
+					Otherwise leave the default path. Click Next.</p>
+					<img src="images/git_install6.PNG" style="width: 30%; height: 30%"/>
+					<p>The repository should now be cloning to your computer. It will take a few minutes. When 
+					installation is complete, you should be able to click the Next button.</p>
+					<img src="images/git_install7.PNG" style="width: 30%; height: 30%"/>
+					<p>Click Finish. SCEC-VDO is now installed to your computer! </p>
+				</div>
 				</br>
-				<h3>Installation instructions</h3>
-				<h5>Install from package</h5>
-				<p>Version 18.9 and installation instructions are coming soon!</p>
-				
-				<h5>Install from GitHub</h5>
-				<i><p>Note: Screenshots are taken from a Windows computer, but installation process will be identical on 
-				Mac OS X and Linux.</p></i>
-				
-				<p>To acquire and run the latest version of the SCEC-VDO source code from GitHub, the Eclipse integrated 
-				development environment (IDE) is recommended. Install the latest version of the 
-				<a href="https://www.eclipse.org/downloads/">Eclipse IDE here.</a></p>
-				
-				<p>Follow the instructions given by the Eclipse installer. Once installed, open Eclipse. You may be 
-				prompted to set a workspace. Click "OK" to accept the default Eclipse workspace.</p>
-				
-				<p>Your screen should appear similar to this:</p>
-				<img src="images/eclipse_empty.png" style="width: 70%; height: 70%"/>
-				<p>In the toolbar at the top, click <i>File > Import...</i>  An import wizard should appear:</p>
-				<img src="images/git_install.PNG" style="width: 30%; height: 30%"/>
-				<p>Click the arrow next to the folder icon to the right of Git. Select <i>Projects from Git</i> and 
-				click Next.</p>
-				<img src="images/git_install2.PNG" style="width: 30%; height: 30%"/>
-				<p>Select <i>Clone URI</i> and click Next.</p> 
-				<img src="images/git_install3.PNG" style="width: 30%; height: 30%"/>
-				<p>In the <i>URI</i> field, enter the web URL for the SCEC-VDO repository: 
-				<i>https://github.com/SCECcode/scec-vdo/</i>
-				</br> The Host and Repository path fields should auto-fill. Click Next.</p>
-				<img src="images/git_install4.PNG" style="width: 30%; height: 30%"/>
-				<p>Here you will be presented with the SCEC-VDO repository branches. Deselect all except for <i>master</i>.
-				Click Next.</p>
-				<img src="images/git_install5.PNG" style="width: 30%; height: 30%"/>
-				<p>Next Eclipse will prompt you with a Local Destination window. If you would like to change where
-				Eclipse will install the SCEC-VDO repository, change the path in the <i>Directory</i> field. 
-				Otherwise leave the default path. Click Next.</p>
-				<img src="images/git_install6.PNG" style="width: 30%; height: 30%"/>
-				<p>The repository should now be cloning to your computer. It will take a few minutes. When 
-				installation is complete, you should be able to click the Next button.</p>
-				<img src="images/git_install7.PNG" style="width: 30%; height: 30%"/>
-				<p>Click Finish. SCEC-VDO is now installed to your computer! </p>
-
+			</div>
+			
+			<div id="Run">
+				<h3>Running SCEC-VDO</h3>
 			</div>
 			
 			<div class="line"></div>
