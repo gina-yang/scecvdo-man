@@ -84,7 +84,7 @@ a:link {
 <body>
 	<div style='width: 100%; height: 55px; background: #686868;' align='center'>
 		<div style='max-width: 1000px; height: 50px; vertical-align: middle;' align='center'>
-			<img width='90px' height='50px' src="http://www.scec.org/themes/scec/logo.png"/> 
+			<a href="https://www.scec.org" target="_blank"><img width='90px' height='50px' src="http://www.scec.org/themes/scec/logo.png"/></a>
 		</div>
 	</div>
 
