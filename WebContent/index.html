@@ -82,7 +82,7 @@ a:link {
 </head>
 
 <body>
-	<div style='width: 100%; height: 55px; background: #686868;' align='center'>
+	<div style='width: 100%; height: 55px; background: #990000;' align='center'>
 		<div style='max-width: 1000px; height: 50px; vertical-align: middle;' align='center'>
 			<a href="https://www.scec.org" target="_blank"><img width='90px' height='50px' src="http://www.scec.org/themes/scec/logo.png"/></a>
 		</div>
@@ -131,7 +131,7 @@ a:link {
 				<li><a href='downloads/scecvdo_17.8_linux_64bit.zip'>Linux (410mb,
 						zip)</a></li>
 				<p>
-					<a href='WebContent/manual/UserGuide.html'>User's Manual</a>
+					<a href='manual/UserGuide.html'>User's Manual</a>
 				</P>
 			</div>
 			<div style='display: inline-block;'>
