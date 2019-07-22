@@ -93,7 +93,7 @@
 
 		<!-- Page Content  -->
 		<div id="content">
-
+			<button onclick="topFunction()" id="myBtn" title="Go to top">Back to top &uarr;</button>
 			<nav class="navbar navbar-expand-lg navbar-light bg-light">
 				<div class="container-fluid">
 
@@ -212,6 +212,21 @@
 				$('a[aria-expanded=true]').attr('aria-expanded', 'false');
 			});
 		});
+		
+		window.onscroll = function() {scrollFunction()};
+		
+		function scrollFunction() {
+		  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+		    document.getElementById("myBtn").style.display = "block";
+		  } else {
+		    document.getElementById("myBtn").style.display = "none";
+		  }
+		}
+		
+		function topFunction() {
+		  document.body.scrollTop = 0;
+		  document.documentElement.scrollTop = 0;
+		}
 	</script>
 </body>
 
