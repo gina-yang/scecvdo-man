@@ -131,7 +131,7 @@ a:link {
 				<li><a href='downloads/scecvdo_17.8_linux_64bit.zip'>Linux (410mb,
 						zip)</a></li>
 				<p>
-					<a href='manual/UserGuide.html'>User's Manual</a>
+					<a href='manual/UserGuide.html'>User Manual</a>
 				</P>
 			</div>
 			<div style='display: inline-block;'>
