@@ -8,74 +8,19 @@ body {
 	font-family: 'Montserrat', sans-serif;
 }
 
-a:link {
-  text-decoration: none;
+.rcorners {
+	border-radius: 25px;
+	background: #e4e6e9;
+	padding: 15px;
+	width: 290;
+	margin: 5px;
+	height: 300px;
+	float: left;
+	display: inline-block;
+	vertical-align: top;
 }
 
-/* Smartphones (portrait and landscape) ----------- */
-@media only screen and (min-device-width : 320px) and (max-device-width
-	: 480px) { /* Styles */
-}
 
-/* Smartphones (landscape) ----------- */
-@media only screen and (min-width : 321px) { /* Styles */
-}
-
-/* Smartphones (portrait) ----------- */
-@media only screen and (max-width : 320px) {
-	/* Styles */
-	.rcorners {
-		border-radius: 25px;
-		background: #e4e6e9;
-		padding: 15px;
-		width: 100%;
-		margin: 5px;
-		height: 300px;
-		float: left;
-		display: inline-block;
-		vertical-align: top;
-	}
-}
-
-/* iPads (portrait and landscape) ----------- */
-@media only screen and (min-device-width : 768px) and (max-device-width
-	: 1024px) { /* Styles */
-}
-
-/* iPads (landscape) ----------- */
-@media only screen and (min-device-width : 768px) and (max-device-width
-	: 1024px) and (orientation : landscape) { /* Styles */
-}
-
-/* iPads (portrait) ----------- */
-@media only screen and (min-device-width : 768px) and (max-device-width
-	: 1024px) and (orientation : portrait) { /* Styles */
-}
-
-/* Desktops and laptops ----------- */
-@media only screen and (min-width : 1224px) {
-	/* Styles */
-	.rcorners {
-		border-radius: 25px;
-		background: #e4e6e9;
-		padding: 15px;
-		width: 290;
-		margin: 5px;
-		height: 300px;
-		float: left;
-		display: inline-block;
-		vertical-align: top;
-	}
-}
-
-/* Large screens ----------- */
-@media only screen and (min-width : 1824px) { /* Styles */
-}
-
-/* iPhone 4 ----------- */
-@media only screen and (-webkit-min-device-pixel-ratio : 1.5) , only
-	screen and (min-device-pixel-ratio : 1.5) { /* Styles */
-}
 </style>
 <title>SCEC-VDO</title>
 <link rel="icon" type="image/png" href="manual/images/vdologo.png">
