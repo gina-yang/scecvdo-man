@@ -20,6 +20,9 @@ body {
 	vertical-align: top;
 }
 
+a {
+	text-decoration: none;
+}
 
 </style>
 <title>SCEC-VDO</title>
