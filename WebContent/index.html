@@ -46,18 +46,15 @@
 		}
 		
 		
-		
 	</style>
 <title>SCEC-VDO</title>
 <link rel="icon" type="image/png" href="manual/images/vdologo.png">
 </head>
 
 <body>
-	<div style='width: 100%; height: 55px; background: #990000;' align='center'>
-		<div style='max-width: 1000px; height: 50px; vertical-align: middle;' align='center'>
-			<a href="https://www.scec.org" target="_blank"><img width='90px' height='50px' src="http://www.scec.org/themes/scec/logo.png"/></a>
-		</div>
-	</div>
+	<header style='width: 100%; height: 70px; background: #990000;' align='center'>
+		<a href="https://www.scec.org" target="_blank"><img style="width: 90px; height: 50px; padding: 10px;" src="http://www.scec.org/themes/scec/logo.png"/></a>
+	</header>
 
 	<div style='width: 100%;' align='center'>
 		<div style='max-width: 1000px; height: 50px;' align='left'>
@@ -65,6 +62,18 @@
 			<div class="btn" align="center">
 				<a class="buttons" href="#">Download v18.9</a>
 				<a class="buttons" href="manual/UserGuide.html">&nbsp;&nbsp;User Manual&nbsp;&nbsp;</a>
+			</div>
+			<div style='display: inline-block; text-align: center;'>
+				<h2>About SCEC-VDO</h2>
+				<p>Researchers and interns at the <a href="http://www.scec.org">Southern California Earthquake Center (SCEC)</a> 
+				have built a seismic data visualization software tool called the SCEC Virtual Display of Objects 
+				(SCEC-VDO). Written with a Swing graphical user interface, Java backend, and the Visualization Toolkit 
+				(VTK) to render 3D content, SCEC-VDO allows for the visualization of 3D earthquake and fault objects on 
+				maps and the creation of images and movies for analysis, presentation, and publication. A 
+				prior version, which began development in 2005, used the now unsupported Java3D library. Replacing Java3D 
+				with the widely supported and actively developed VTK libraries ensures that SCEC-VDO can maintain user 
+				accessibility and functionality for years to come. </br></br></br>
+				</p>
 			</div>
 			<div class='rcorners'>
 				<b>Visualize data</b>
@@ -105,20 +114,13 @@
 				<li><a href='downloads/scecvdo_17.8_linux_64bit.zip'>Linux (410mb,
 						zip)</a></li>
 			</div>
-			<div style='display: inline-block;'>
-				<h3></br>About SCEC-VDO</h3>
-				<p>Researchers and interns at the <a href="http://www.scec.org">Southern California Earthquake Center (SCEC)</a> 
-				have built a seismic data visualization software tool called the SCEC Virtual Display of Objects 
-				(SCEC-VDO). Written with a Swing graphical user interface, Java backend, and the Visualization Toolkit 
-				(VTK) to render 3D content, SCEC-VDO allows for the visualization of 3D earthquake and fault objects on 
-				maps and the creation of images and movies for analysis, presentation, and publication. A 
-				prior version, which began development in 2005, used the now unsupported Java3D library. Replacing Java3D 
-				with the widely supported and actively developed VTK libraries ensures that SCEC-VDO can maintain user 
-				accessibility and functionality for years to come.
-				</p>
-			</div>
+			
 
 		</div>
 	</div>
+	<footer style='width: 100%; height: 70px; background: #990000;' align='center'>
+		<a href="https://www.scec.org" target="_blank"><img style="width: 90px; height: 50px; padding: 10px;" src="http://www.scec.org/themes/scec/logo.png"/></a>
+	</footer>
+	
 </body>
 </html>
