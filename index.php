@@ -24,9 +24,10 @@
 			background-color: #990000;
 			border: none;
 			padding: 15px 32px;
+			margin-top: 20px;
 			margin-left: 20px;
 			margin-right: 20px;
-			margin-bottom: 30px; 
+			margin-bottom: 20px; 
 			text-align: center;
 			text-decoration: none;
 			display: inline-block;
