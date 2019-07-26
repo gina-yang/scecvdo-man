@@ -117,10 +117,6 @@
 			
 
 		</div>
-	</div>
-	<footer style='width: 100%; height: 70px; background: #990000;' align='center'>
-		<a href="https://www.scec.org" target="_blank"><img style="width: 90px; height: 50px; padding: 10px;" src="http://www.scec.org/themes/scec/logo.png"/></a>
-	</footer>
-	
+	</div>	
 </body>
 </html>
