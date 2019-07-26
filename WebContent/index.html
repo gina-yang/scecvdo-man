@@ -70,7 +70,7 @@
 				maps and the creation of images and movies for analysis, presentation, and publication. </br></br></br>
 				</p>
 			</div>
-			<div class="boxes" align="center">
+			<div class="boxes" align="center" style="margin-bottom: 50px;">
 				<div class='rcorners'>
 					<b>Visualize data</b>
 					<ul>
