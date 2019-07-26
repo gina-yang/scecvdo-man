@@ -11,8 +11,8 @@
 		.rcorners {
 			border-radius: 25px;
 			background: #e4e6e9;
-			padding: 15px;
-			width: 290;
+			padding: 25px;
+			width: 270px;
 			margin: 5px;
 			height: 300px;
 			float: left;
@@ -26,13 +26,17 @@
 			padding: 15px 32px;
 			margin-left: 20px;
 			margin-right: 20px;
-			margin-bottom: 20px; 
+			margin-bottom: 30px; 
 			text-align: center;
 			text-decoration: none;
 			display: inline-block;
 			font-size: 16px;
 			color: #fff;
 			border-radius: 12px;
+			border: #990000;
+		}
+		.buttons:hover{
+			background-color: #b80000;
 		}
 		
 		a {
@@ -98,9 +102,6 @@
 						(320mb, zip)</a></li>
 				<li><a href='downloads/scecvdo_17.8_linux_64bit.zip'>Linux (410mb,
 						zip)</a></li>
-				<p>
-					<a href='manual/UserGuide.html'>User Manual</a>
-				</P>
 			</div>
 			<div style='display: inline-block;'>
 				<h3></br>About SCEC-VDO</h3>
