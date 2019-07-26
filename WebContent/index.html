@@ -33,10 +33,12 @@
 			font-size: 16px;
 			color: #fff;
 			border-radius: 12px;
-			border: #990000;
+			border: 2px solid #990000;
 		}
 		.buttons:hover{
-			background-color: #b80000;
+			background-color: #a80000;
+			border: 2px solid #990000;
+			transition: 0.3s ease;
 		}
 		
 		a {
@@ -62,7 +64,7 @@
 			<img style='width: 100%; height: auto;' src='manual/images/scecvdofront.png'>
 			<div class="btn" align="center">
 				<a class="buttons" href="#">Download v18.9</a>
-				<a class="buttons" href="/manual/UserGuide.html">&nbsp;&nbsp;User Manual&nbsp;&nbsp;</a>
+				<a class="buttons" href="manual/UserGuide.html">&nbsp;&nbsp;User Manual&nbsp;&nbsp;</a>
 			</div>
 			<div class='rcorners'>
 				<b>Visualize data</b>

@@ -119,6 +119,14 @@ a:focus {
 	display: block;
 }
 
+.download {
+	background: #505050;
+}
+
+#sidebar ul li a.download:hover {
+	background: #606060;
+}
+
 #sidebar ul li a:hover {
 	color: #787878;
 	background: #fff;
@@ -164,13 +172,6 @@ ul.CTAs a {
 	margin-bottom: 5px;
 }
 
-a.download {
-	background: #505050;
-}
-
-a.download:hover {
-	background: #505050;
-}
 
 /* ---------------------------------------------------
 	CONTENT STYLE
