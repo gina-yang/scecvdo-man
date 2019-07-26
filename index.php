@@ -2,29 +2,46 @@
 <head>
 <meta name="viewport"
 	content="width=device-width,height=device-height,initial-scale=1.0" />
-<style>
-@import "https://fonts.googleapis.com/css?family=Montserrat&display=swap";
-body {
-	font-family: 'Montserrat', sans-serif;
-}
-
-.rcorners {
-	border-radius: 25px;
-	background: #e4e6e9;
-	padding: 15px;
-	width: 290;
-	margin: 5px;
-	height: 300px;
-	float: left;
-	display: inline-block;
-	vertical-align: top;
-}
-
-a {
-	text-decoration: none;
-}
-
-</style>
+	<style>
+		@import "https://fonts.googleapis.com/css?family=Montserrat&display=swap";
+		body {
+			font-family: 'Montserrat', sans-serif;
+		}
+		
+		.rcorners {
+			border-radius: 25px;
+			background: #e4e6e9;
+			padding: 15px;
+			width: 290;
+			margin: 5px;
+			height: 300px;
+			float: left;
+			display: inline-block;
+			vertical-align: top;
+		}
+		
+		.buttons {
+			background-color: #990000;
+			border: none;
+			padding: 15px 32px;
+			margin-left: 20px;
+			margin-right: 20px;
+			margin-bottom: 20px; 
+			text-align: center;
+			text-decoration: none;
+			display: inline-block;
+			font-size: 16px;
+			color: #fff;
+			border-radius: 12px;
+		}
+		
+		a {
+			text-decoration: none;
+		}
+		
+		
+		
+	</style>
 <title>SCEC-VDO</title>
 <link rel="icon" type="image/png" href="manual/images/vdologo.png">
 </head>
@@ -39,7 +56,10 @@ a {
 	<div style='width: 100%;' align='center'>
 		<div style='max-width: 1000px; height: 50px;' align='left'>
 			<img style='width: 100%; height: auto;' src='manual/images/scecvdofront.png'>
-
+			<div class="btn" align="center">
+				<a class="buttons" href="#">Download v18.9</a>
+				<a class="buttons" href="/manual/UserGuide.html">&nbsp;&nbsp;User Manual&nbsp;&nbsp;</a>
+			</div>
 			<div class='rcorners'>
 				<b>Visualize data</b>
 				<ul>
