@@ -46,8 +46,9 @@
 			text-decoration: none;
 		}
 	</style>
-<title>SCEC-VDO</title>
-<link rel="icon" type="image/png" href="manual/images/vdologo.png">
+	
+	<title>SCEC-VDO</title>
+	<link rel="icon" type="image/png" href="manual/images/vdologo.png">
 </head>
 
 <body>
@@ -65,10 +66,10 @@
 			<div style="display: inline-block; text-align: center;">
 				<h2>About SCEC-VDO</h2>
 				<p>Researchers and interns at the <a href="http://www.scec.org">Southern California Earthquake Center (SCEC)</a> 
-				have built a seismic data visualization software tool called the SCEC Virtual Display of Objects 
-				(SCEC-VDO). Written with a Swing graphical user interface, Java backend, and the Visualization Toolkit 
-				(VTK) to render 3D content, SCEC-VDO allows for the visualization of 3D earthquake and fault objects on 
-				maps and the creation of images and movies for analysis, presentation, and publication. </br></br></br>
+				have built a seismic data visualization software tool called the SCEC Virtual Display of Objects (SCEC-VDO). 
+				Written in Java with the Swing GUI toolkit to create interactive menus and the Visualization Toolkit (VTK) to 
+				render 3D content, SCEC-VDO allows for the visualization of 3D earthquake and fault objects on maps and the 
+				creation of images and movies for analysis, presentation, and publication. </br></br></br>
 				</p>
 			</div>
 			<div class="boxes" align="center" style="margin-bottom: 50px;">
