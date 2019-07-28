@@ -1,4 +1,7 @@
 <html>
+
+<!-- @author Gina Yang (ginayang@usc.edu), summer '19 -->
+
 <head>
 <meta name="viewport"
 	content="width=device-width,height=device-height,initial-scale=1.0" />
