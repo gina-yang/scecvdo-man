@@ -112,8 +112,8 @@
 
 		<!-- Page Content  -->
 		<div id="content">
-			<button onclick="showSidebar()" id="showMenu" class="btn btn-info btn-dark"><i class="fas fa-align-left"></i></button>
-			<button onclick="topFunction()" id="toTop" title="Go to top">Back to top &uarr;</button>
+			<button id="showMenu" class="btn btn-info btn-dark" title="Toggle menu"><i class="fas fa-align-left"></i></button>
+			<button onclick="topFunction()" id="toTop">Back to top &uarr;</button>
 			<nav class="navbar navbar-expand-lg navbar-light bg-light">
 				<div class="container-fluid">
 
@@ -355,12 +355,18 @@
 				$('.collapse.in').toggleClass('in');
 				$('a[aria-expanded=true]').attr('aria-expanded', 'false');
 			});
+			
+			$('#showMenu').on('click', function () {
+				$('#sidebar, #content').toggleClass('active');
+				$('.collapse.in').toggleClass('in');
+				$('a[aria-expanded=true]').attr('aria-expanded', 'false');
+			});
 		});
 		
 		window.onscroll = function() {scrollFunction()};
 		
 		function scrollFunction() {
-		  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+		  if (document.body.scrollTop > 120 || document.documentElement.scrollTop > 120) {
 		    document.getElementById("toTop").style.display = "block";
 		    document.getElementById("showMenu").style.display = "block";
 		  } else {
@@ -373,6 +379,8 @@
 		  document.body.scrollTop = 0;
 		  document.documentElement.scrollTop = 0;
 		}
+		
+
 	</script>
 </body>
 
