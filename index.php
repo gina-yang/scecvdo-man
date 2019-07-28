@@ -24,7 +24,6 @@
 			background-color: #990000;
 			border: none;
 			padding: 15px 32px;
-			margin-top: 10px;
 			margin-left: 20px;
 			margin-right: 20px;
 			margin-bottom: 20px; 
@@ -56,9 +55,9 @@
 		<a href="https://www.scec.org" target="_blank"><img style="width: 90px; height: 50px; padding: 10px;" src="http://www.scec.org/themes/scec/logo.png"/></a>
 	</header>
 
-	<div style="width: 100%;" align='center'>
+	<div style="width: 100%;" align="center">
 		<div style="max-width: 1000px; height: 50px;">
-			<img style='width: 100%; height: auto;' src='manual/images/scecvdofront.png'>
+			<img style="width: 100%; height: auto; margin-bottom: 10px;" src='manual/images/scecvdofront.png'>
 			<div class="btn" align="center">
 				<a class="buttons" href="#">Download v18.9</a>
 				<a class="buttons" href="manual/UserGuide.html">&nbsp;&nbsp;User Manual&nbsp;&nbsp;</a>
@@ -113,7 +112,6 @@
 							zip)</a></li>
 				</div>
 			</div>
-			
 		</div>
 	</div>	
 </body>
