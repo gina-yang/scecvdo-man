@@ -112,6 +112,7 @@
 
 		<!-- Page Content  -->
 		<div id="content">
+			<button onclick="showSidebar()" id="showMenu" class="btn btn-info btn-dark"><i class="fas fa-align-left"></i></button>
 			<button onclick="topFunction()" id="toTop" title="Go to top">Back to top &uarr;</button>
 			<nav class="navbar navbar-expand-lg navbar-light bg-light">
 				<div class="container-fluid">
@@ -120,14 +121,14 @@
 						<i class="fas fa-align-left"></i>
 						<span> Toggle menu</span>
 					</button>
-					<a class="nav-link" href="https://github.com/SCECcode/scec-vdo/"><i class="fab fa-github" style="font-size: 1.5em;"></i> SCEC-VDO on GitHub</a> 
+					<a class="nav-link" href="https://github.com/SCECcode/scec-vdo/" id="gh"><i class="fab fa-github" style="font-size: 1.5em;"></i><span> SCEC-VDO on GitHub</span></a> 
 				</div>
 			</nav>
 
 			<div id="About">
 				<h1>About</h1>
 				<h3>Welcome to SCEC-VDO!</h3>
-				<p>Researchers and interns at the <a href="http://www.scec.org">Southern California Earthquake Center (SCEC)</a> 
+				<p>Researchers and interns at the <a href="http://www.scec.org" target="_blank">Southern California Earthquake Center (SCEC)</a> 
 				have built a seismic data visualization software tool called the SCEC Virtual Display of Objects (SCEC-VDO). 
 				Written in Java with the Swing GUI toolkit to create interactive menus and the Visualization Toolkit (VTK) to 
 				render 3D content, SCEC-VDO allows for the visualization of 3D earthquake and fault objects on maps and the 
@@ -361,8 +362,10 @@
 		function scrollFunction() {
 		  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
 		    document.getElementById("toTop").style.display = "block";
+		    document.getElementById("showMenu").style.display = "block";
 		  } else {
 		    document.getElementById("toTop").style.display = "none";
+		    document.getElementById("showMenu").style.display = "none";
 		  }
 		}
 		

@@ -55,7 +55,7 @@
 
 <body>
 	<header style="width: 100%; height: 70px; background: #990000; text-align: center;">
-		<a href="https://www.scec.org" target="_blank"><img style="width: 90px; height: 50px; padding: 10px;" src="http://www.scec.org/themes/scec/logo.png"/></a>
+		<a href="https://www.scec.org"><img style="width: 90px; height: 50px; padding: 10px;" src="http://www.scec.org/themes/scec/logo.png"/></a>
 	</header>
 
 	<div style="width: 100%;" align="center">

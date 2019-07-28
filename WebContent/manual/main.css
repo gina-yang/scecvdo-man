@@ -4,7 +4,6 @@ body {
 	background: #fafafa;
 }
 
-
 #toTop {
 	display: none;
 	position: fixed;
@@ -21,7 +20,12 @@ body {
 	border-radius: 4px;
 }
 
-
+#showMenu {
+	display: none;
+	position: fixed;
+	top: 20px;
+	left: 315px;
+}
 
 p {
 	font-family: 'Montserrat', sans-serif;
@@ -209,6 +213,9 @@ ul.CTAs a {
 		width: calc(100% - 250px);
 	}
 	#sidebarCollapse span {
+		display: none;
+	}
+	#gh span {
 		display: none;
 	}
 }
